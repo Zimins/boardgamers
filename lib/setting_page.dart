@@ -7,7 +7,11 @@ class SettingPage extends StatelessWidget {
       body: Column(
         children: [
           Text("테마 설정"),
-          Text("앱 정보"),
+          GestureDetector(
+              onTap: () {
+                showAboutDialog(context: context);
+              },
+              child: Text("앱 정보")),
         ],
       ),
     );

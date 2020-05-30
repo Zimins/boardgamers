@@ -15,7 +15,39 @@ class ProfilePage extends StatelessWidget {
                 // 회원가입, 로그인 추가
               },
               child: Text(
-                "계정 추가하기",
+                "이메일로 시작하기",
+              ),
+            ),
+            OutlineButton(
+              onPressed: () {
+                // 회원가입, 로그인 추가
+              },
+              child: Text(
+                "네이버로 시작하기",
+              ),
+            ),
+            OutlineButton(
+              onPressed: () {
+                // 회원가입, 로그인 추가
+              },
+              child: Text(
+                "카카오로 시작하기",
+              ),
+            ),
+            OutlineButton(
+              onPressed: () {
+                // 회원가입, 로그인 추가
+              },
+              child: Text(
+                "구글로 시작하기",
+              ),
+            ),
+            OutlineButton(
+              onPressed: () {
+                // 회원가입, 로그인 추가
+              },
+              child: Text(
+                "애플로 시작하기",
               ),
             ),
           ],
