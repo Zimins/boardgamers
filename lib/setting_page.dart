@@ -6,7 +6,8 @@ class SettingPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text("설정 페이지"),
+          Text("테마 설정"),
+          Text("앱 정보"),
         ],
       ),
     );

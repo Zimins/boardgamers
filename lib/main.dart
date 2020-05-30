@@ -63,15 +63,15 @@ class _InitialPageState extends State<InitialPage> {
                 ),
                 NavigationRailDestination(
                   icon: Icon(
-                    Icons.person_pin,
-                  ),
-                  label: Text("프로필"),
-                ),
-                NavigationRailDestination(
-                  icon: Icon(
                     Icons.card_travel,
                   ),
                   label: Text("게임 도구"),
+                ),
+                NavigationRailDestination(
+                  icon: Icon(
+                    Icons.person_pin,
+                  ),
+                  label: Text("프로필"),
                 ),
                 NavigationRailDestination(
                   icon: Icon(
@@ -90,9 +90,9 @@ class _InitialPageState extends State<InitialPage> {
                     case 1:
                       return GroupsPage();
                     case 2:
-                      return ProfilePage();
-                    case 3:
                       return GameToolsPage();
+                    case 3:
+                      return ProfilePage();
                     case 4:
                       return SettingPage();
                     default:
